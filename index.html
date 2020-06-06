@@ -14,6 +14,11 @@
   			gtag('js', new Date());
 
   			gtag('config', 'UA-162516820-3');
+
+			if(window.location.protocol == "http:"){
+				console.log(1)
+				location.href = "https://parkbot.yoru.pe.kr"
+			}
 		</script>
 
 		<title>파크봇</title>
